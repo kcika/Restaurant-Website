@@ -1,0 +1,51 @@
+.imgContainer {
+    width: 100%;
+    height: 502px;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    transition: all .3s;
+}
+
+.imgContainer img:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.cta {
+    color: black;
+    border: 1px solid #bdab81;
+    transition: all .3s;
+}
+
+.cta:hover {
+    background: transparent;
+    color: #bdab81;
+    transition: all .3s;
+}
+
+.signatureDish {
+    border: 1px solid #bdab81;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.signatureDish:hover {
+    box-shadow: 0 0 20px #bdab81;
+    transition: all .3s;
+}
+
+.testimonial {
+    transition: all .3s;
+}
+
+.testimonial:hover {
+    box-shadow: 0 0 20px #bdab81;
+    transition: all .3s;
+}
+
+.reservationCont {
+    background: url(/src/assets/reservationBg.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,51 @@
+.footer {
+    background: url(/src/assets/footerImg.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.overlay {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.darkoverlay {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .82);
+}
+
+.box {
+    width: 600px;
+    height: 650px;
+}
+
+.box input {
+    font-size: 18px;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    background-color: #fff !important;
+}
+
+.box button {
+    font-size: 18px;
+    padding: 12px 22px;
+    border: none;
+    outline: none;
+    background-color: #bdab81;
+    color: #0b1315;
+    font-weight: 600;
+}
+
+
+.subscribe input {
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+}

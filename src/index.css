@@ -1,0 +1,19 @@
+.golden {
+    color: #bdab81;
+}
+
+.bg-golden {
+    background-color: #bdab81;
+}
+
+.black {
+    background-color: #0b1315;
+}
+
+.gold {
+    color: hsl(38, 61%, 73%);
+}
+
+.bg-gold {
+    background-color: hsl(38, 61%, 73%);
+}

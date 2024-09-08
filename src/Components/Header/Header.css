@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Forum", serif;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    border-radius: 8px;
+    background-color: hsl(38, 61%, 73%);
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5px;
+    transition: all .5s;
+}
+
+nav li:hover::before {
+    width: 60%;
+    transition: all .5s;
+}
+
+.navLinks {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: hsl(38, 61%, 73%);
+}
+
+.nav-link:hover {
+    color: hsl(38, 61%, 73%) !important;
+}
+
+button {
+    border: 1px solid hsl(38, 61%, 73%);
+    transition: all .5s;
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(38, 61%, 73%);
+    border: 1px solid hsl(38, 61%, 73%);
+}
+
+.topNav {
+    background-color: #0b1315;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.searchbox {
+    position: absolute;
+    left: 0;
+    top: -102px;
+    background-color: #0b1315;
+    width: 100%;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.searchbox.active {
+    top: 50px;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.searchCont {
+    width: 100%;
+    border: 1px solid #bdab81;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 30px auto;
+}
+
+.searchCont input {
+    border: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+@media (max-width: 992px) {
+    .navLinks {
+        /* display: none !important; */
+        position: absolute;
+        top: 50px;
+        right: -650px;
+        height: 100vh;
+        width: 80vw;
+        display: block !important;
+        background-color: #0b1315;
+        padding: 0;
+        transition: all .3s;
+    }
+
+    nav li:hover::before {
+        width: 0%;
+        transition: all .5s;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navLinks.active {
+        right: 0;
+        transition: all .3s;
+    }
+
+}

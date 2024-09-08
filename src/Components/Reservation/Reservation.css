@@ -1,0 +1,40 @@
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #bdab81;
+    outline: none !important;
+    background: transparent;
+    /* border-bottom: 1px solid #bdab81; */
+    color: #bdab81;
+}
+
+.form-control {
+    color: #bdab81 !important;
+    background-color: transparent !important;
+    border: 1px solid #bdab81;
+}
+
+.form-control:focus {
+    color: #bdab81 !important;
+    background-color: transparent !important;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.form-select {
+    color: #bdab81 !important;
+    background-color: transparent !important;
+    border: 1px solid #bdab81 !important;
+}
+
+.form-select:focus {
+    color: #bdab81 !important;
+    background-color: transparent !important;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
