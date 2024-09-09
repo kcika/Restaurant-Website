@@ -118,7 +118,26 @@ import cross_icon from './cross_icon.png'
 import reservationBg from './reservationBg.jpg'
 import loginimg from './loginimg.jpg'
 import signupimg from './signupimg.jpg'
-
+import marquee1 from './marquee1.jpeg'
+import marquee2 from './marquee2.jpeg'
+import marquee3 from './marquee3.jpeg'
+import marquee4 from './marquee4.jpeg'
+import marquee5 from './marquee5.jpeg'
+import marquee6 from './marquee6.jpeg'
+import marquee7 from './marquee7.jpeg'
+import marquee8 from './marquee8.jpeg'
+import marquee9 from './marquee9.jpeg'
+import marquee10 from './marquee10.jpeg'
+import marquee11 from './marquee11.jpeg'
+import marquee12 from './marquee12.jpeg'
+import marquee13 from './marquee13.jpeg'
+import marquee14 from './marquee14.jpeg'
+import marquee15 from './marquee15.jpeg'
+import marquee16 from './marquee16.jpeg'
+import marquee17 from './marquee17.jpeg'
+import marquee18 from './marquee18.jpeg'
+import marquee19 from './marquee19.jpeg'
+import marquee20 from './marquee20.jpeg'
 
 
 
@@ -244,6 +263,26 @@ export const assets = {
     reservationBg,
     signupimg,
     loginimg,
+    marquee1,
+    marquee2,
+    marquee3,
+    marquee4,
+    marquee5,
+    marquee6,
+    marquee7,
+    marquee8,
+    marquee9,
+    marquee10,
+    marquee11,
+    marquee12,
+    marquee13,
+    marquee14,
+    marquee15,
+    marquee16,
+    marquee17,
+    marquee18,
+    marquee19,
+    marquee20,
 }
 
 export const menu_list = [

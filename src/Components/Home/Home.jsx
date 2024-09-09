@@ -4,6 +4,7 @@ import CarouselFadeExample4 from '../Carousels/CarouselFadeExample4'
 import { assets } from '../../assets/assets'
 import { NavLink } from 'react-router-dom'
 import Reservation from '../Reservation/Reservation'
+import Gallery from '../Gallery/Gallery'
 
 const Home = () => {
     return (
@@ -280,6 +281,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* gallery */}
+            <Gallery />
         </div>
     )
 }
